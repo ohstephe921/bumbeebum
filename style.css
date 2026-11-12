@@ -464,3 +464,8 @@ footer a { color: #fff; font-weight: 700; }
   .brand img.bee { width: 36px; height: 36px; }
   .lands { grid-template-columns: 1fr; }
 }
+
+/* The tip jar: a thank-you line and a purple button. */
+.tip { text-align: center; margin: 44px auto 0; max-width: 560px; }
+.tip p { margin: 0 0 18px; font-size: 1.1rem; color: var(--ink-soft); }
+.button.purple { background: linear-gradient(#9a72ee, var(--purple) 60%, #5630b0); color: #fff; }
