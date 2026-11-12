@@ -469,3 +469,7 @@ footer a { color: #fff; font-weight: 700; }
 .tip { text-align: center; margin: 44px auto 0; max-width: 560px; }
 .tip p { margin: 0 0 18px; font-size: 1.1rem; color: var(--ink-soft); }
 .button.purple { background: linear-gradient(#9a72ee, var(--purple) 60%, #5630b0); color: #fff; }
+
+/* Stars twinkle behind the words and pictures, never on top of them. */
+.sky .wrap { position: relative; z-index: 1; }
+.hello h1 { text-shadow: 0 3px 0 rgba(45, 20, 102, 0.45), 0 0 18px rgba(45, 20, 102, 0.55); }
